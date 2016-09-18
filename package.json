@@ -1,0 +1,14 @@
+{
+  "name": "breakglass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "breakglass.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Roche <jproche5@gmail.com>",
+  "license": "ISC",
+  "bin": {
+     "breakglass": "./breakglass.js"
+  }
+}
