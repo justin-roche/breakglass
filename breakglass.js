@@ -29,7 +29,7 @@ function breakGlass() {
 
   //if a command is provided and it is a sub-directory in current working directory run breakglass
   //on sub-directory provided
-  if (command && isDirectory(command)) {
+  else if (command && isDirectory(command)) {
     directory = `${directory}/${command}`;
     console.log(`running breakglass on the sub-directory ${directory}`);
   }
