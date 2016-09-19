@@ -88,6 +88,6 @@ function breakGlass(){
 
 }
 
+//makes into a node module
 module.exports = breakGlass();
 
-/*command: breakglass (creates index file that references the scripts and opens chrome on index and sublime for them)*/
